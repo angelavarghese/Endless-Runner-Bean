@@ -1,5 +1,6 @@
 # Endless Runner Bean
 <img width="654" height="417" alt="image" src="https://github.com/user-attachments/assets/9c0221ac-49fe-457e-9c6b-3470d042d854" />
+
 ## Core Project Summary
 * **Movement & Camera:** Rigidbody-based player movement in `FixedUpdate` paired with an offset-tracking camera script.
 * **Procedural Track Generation:** `GroundSpawner` instantiates an initial 15 ground tiles, while `GroundTile` dynamically spawns new tiles ahead and cleans up old ones using a Z-coordinate threshold.
